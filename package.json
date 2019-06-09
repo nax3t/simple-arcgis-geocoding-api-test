@@ -1,0 +1,23 @@
+{
+  "name": "arcgis-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@esri/arcgis-rest-auth": "^2.0.3",
+    "@esri/arcgis-rest-geocoding": "^2.0.3",
+    "@esri/arcgis-rest-request": "^2.0.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-form-data": "^2.0.0",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+  }
+}
